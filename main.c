@@ -16,4 +16,4 @@ int main(){
     
     printf("%s\n", palavra);
     return 0;
-}p
+}
