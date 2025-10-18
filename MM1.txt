@@ -1,0 +1,35 @@
+S0 S1 S2 S3 S_FAIL
+S0
+S3
+1 2 3 4 . N
+0 1 \n epsilon
+S0 1 S0 epsilon
+S0 2 S0 epsilon
+S0 4 S0 epsilon
+S0 3 S1 epsilon
+S1 2 S2 epsilon
+S1 4 S2 epsilon
+S1 3 S3 epsilon
+S1 1 S_FAIL epsilon
+S2 2 S2 epsilon
+S2 4 S2 epsilon
+S2 3 S3 epsilon
+S2 1 S_FAIL epsilon
+S3 1 S3 epsilon
+S3 2 S3 epsilon
+S3 3 S3 epsilon
+S3 4 S3 epsilon
+S_FAIL 1 S_FAIL epsilon
+S_FAIL 2 S_FAIL epsilon
+S_FAIL 3 S_FAIL epsilon
+S_FAIL 4 S_FAIL epsilon
+S0 . S0 0
+S1 . S0 0
+S2 . S0 0
+S3 . S0 1
+S_FAIL . S0 0
+S0 N S0 0\n
+S1 N S0 0\n
+S2 N S0 0\n
+S3 N S0 1\n
+S_FAIL N S0 0\n

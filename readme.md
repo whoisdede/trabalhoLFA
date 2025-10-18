@@ -1,0 +1,1 @@
+./SimuladorMealy MM3.txt w512.txt > saida3512.ppm
